@@ -1,0 +1,48 @@
+.heading{
+  font-size: 4rem;
+}
+body{
+  text-align: center;
+  background-color: #403d411a;
+}
+
+.container{
+  display: inline-block;
+  border-radius: 8px;
+  background-color: white;
+  padding-left: 0;
+  padding-right: 0;
+
+}
+.input{
+  border-color: red;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  width: 19rem;
+  background-color: red;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+input:focus{
+    outline: none;
+}
+.button{
+  width: 4rem;
+  height: 4rem;
+  border-color: transparent;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 0.3rem;
+  font-weight: bold;
+  box-shadow: none;
+}
+.button:hover{
+  background-color: #DFF6FF;
+}
+.row4{
+  margin-bottom: 1.5rem;
+}
+.row0, .row1{
+  color: red;
+}
